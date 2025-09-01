@@ -46,6 +46,6 @@ for k in {1..04}; do
 done
 clear
 tput setaf 2
-figlet "SUSHANT BIO GOD"
+figlet "BOOM BOOM !!!!!!"
 tput sgr0
 
