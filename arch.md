@@ -35,10 +35,8 @@ Decision Engine
         |
         v
 Human or Machine Classification
-
-
-⸻
-
+```
+```text
 Architecture for CAPTCHA System
 
 To prevent bots from accessing services by presenting tasks that humans can solve easily but machines find difficult.
@@ -66,8 +64,9 @@ Verification Engine
 Access Granted / Access Denied
 
 
-⸻
+```
 
+```text
 Combined Architecture for Applications
 
 User
@@ -89,3 +88,4 @@ Access Control System
  |
  v
 Allow / Deny Access
+```
