@@ -1,97 +1,44 @@
-Here is the entire corrected Markdown text. You can copy the code block below and paste it directly into your editor:
-
-```markdown
-**Architecture for a Turing Test System**
-
-To determine whether the entity interacting with the system is human or artificial intelligence based on conversation.
-
-**Main Components**
-1. User Interface Module
-2. Conversation Manager
-3. Question Generator
-4. Response Analyzer
-5. Decision Engine
-6. Database / Knowledge Base
-
 **Turing Test Architecture**
-
-```text
-  User (Human / AI)
-        |
-        v
-User Interface (Chat System)
-        |
-        v
-Conversation Manager
-        |
-        v
-Question Generator (Knowledge Base)
-        |
-        v
-Response Analyzer (NLP + AI Models)
-        |
-        v
-Decision Engine
-        |
-        v
-Human or Machine Classification
-
-```
-
-**Architecture for CAPTCHA System**
-
-To prevent bots from accessing services by presenting tasks that humans can solve easily but machines find difficult.
+* User (Human / AI)
+  * ↓ connects to
+* User Interface (Chat System)
+  * ↓ sends messages to
+* Conversation Manager
+  * ↓ pulls prompts from
+* Question Generator (Knowledge Base)
+  * ↓ sends data to
+* Response Analyzer (NLP + AI Models)
+  * ↓ evaluates and sends to
+* Decision Engine
+  * ↓ outputs final result
+* Human or Machine Classification
 
 **CAPTCHA Architecture**
-
-```text
-User
- |
- v
-Web/Application Interface
- |
- v
-CAPTCHA Generator
- |
- v
-Challenge Presentation
- |
- v
-User Input
- |
- v
-Verification Engine
- |
- v
-Access Granted / Access Denied
-
-```
+* User
+  * ↓ accesses
+* Web/Application Interface
+  * ↓ requests challenge from
+* CAPTCHA Generator
+  * ↓ shows
+* Challenge Presentation
+  * ↓ receives
+* User Input
+  * ↓ verified by
+* Verification Engine
+  * ↓ results in
+* Access Granted / Access Denied
 
 **Combined Architecture for Applications**
-
-```text
-User
- |
- v
-Application Interface
- |
- v
-Human Verification Layer
- |                  |
- v                  v
-CAPTCHA System   Turing Test Chat System
- |                  |
- v                  v
-Verification Engine
- |
- v
-Access Control System
- |
- v
-Allow / Deny Access
-
-```
-
-```
-
-```
+* User
+  * ↓ accesses
+* Application Interface
+  * ↓ verifies via
+* Human Verification Layer
+  * ↓ routes to
+* CAPTCHA System OR Turing Test Chat System
+  * ↓ checked by
+* Verification Engine
+  * ↓ results in
+* Access Control System
+  * ↓ grants
+* Allow / Deny Access
